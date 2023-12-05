@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Silkscreen&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                container: {
+                    center: true,
+                    padding: '16px',
+                },
+                extend: {
+                    colors: {
+                        primary: '#f0f3ff',
+                        dark: '#090e23',
+                        secondary: '#3a10e5',
+                        third: '#facb3b',
+                        fourth: '#fff0e5'
+                    },
+                    screens: {
+                        '2xl': '1320px'
+                    }
+                }
+            }
+        }
+    </script>
+    <title>Arya Ryuga | Slicing Brawl</title>
+</head>
+
+<body>
+    <div class=" h-screen m-0 p-0">
+        <nav class="bg-white w-full h-20 flex justify-between items-center">
+            <div class="h-max items-center ml-10">
+                <img src="assets/logo-ligasmk-dark.png">
+            </div>
+            <div class="mr-10">
+                <ul class="flex font-semibold text-lg">
+                    <li class="mr-10 flex hover:cursor-pointer">Home <img class="ml-1"
+                            src="assets/icon-arrow-bottom.svg"></li>
+                    <li class="mr-10 flex hover:cursor-pointer">About Us <img class="ml-1"
+                            src="assets/icon-arrow-bottom.svg"></li>
+                    <li class="mr-10 flex hover:cursor-pointer">Kelas <img class="ml-1"
+                            src="assets/icon-arrow-bottom.svg"></li>
+                    <li class="mr-10 flex hover:cursor-pointer">Blog <img class="ml-1"
+                            src="assets/icon-arrow-bottom.svg"></li>
+                    <li class="mr-6 hover:cursor-pointer">Kontak</li>
+                </ul>
+            </div>
+        </nav>
+        <main>
+            <div class="bg-primary w-full h-auto pt-16 pb-40 flex justify-evenly items-center">
+                <div class="w-96 flex flex-col justify-center items-center">
+                    <h1 class="font-bold text-5xl leading-snug">Bergabunglah dengan jutaan orang dan belajar hal baru
+                    </h1>
+                    <p class="mt-8 text-slate-500">Mengubah kehidupan, bisnis, dan bangsa melalui transformasi talenta
+                        di bidang teknologi digital.</p>
+                    <div
+                        class="w-72 h-16 bg-secondary mt-8 flex justify-around items-center rounded-lg mr-24 hover:cursor-pointer">
+                        <p class="text-white text-lg mr-14">Mulai Belajar</p> <img
+                            src="assets/icon-arrowlong-right.svg">
+                    </div>
+                </div>
+                <div><img src="assets/shape-diagram.png"></div>
+            </div>
+            <div class="w-full h-56 bg-third flex justify-evenly">
+                <div class="flex items-center">
+                    <img class="w-24 h-24 mr-10" src="assets/icon-online-education.svg">
+                    <div class="flex flex-col justify-center">
+                        <p class="font-bold text-xl">Membangun Karir</p>
+                        <p class="text-sm">Semua yang butuh kerja</p>
+                    </div>
+                </div>
+                <div class="flex items-center">
+                    <img class="w-24 h-24 mr-10" src="assets/icon-globe-handphone.svg">
+                    <div class="flex flex-col justify-center">
+                        <p class="font-bold text-xl">Cari Materi Belajarr</p>
+                        <p class="text-sm">Seberapa pengetahuan kamu</p>
+                    </div>
+                </div>
+                <div class="flex items-center">
+                    <img class="w-24 h-24 mr-10" src="assets/icon-online-education-laptop.svg">
+                    <div class="flex flex-col justify-center">
+                        <p class="font-bold text-xl">Kuasai Skill Baru</p>
+                        <p class="text-sm">Fokus apa yang dibutuhkan</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full h-[150vh] bg-white py-32 px-72">
+                <div class="flex justify-between items-center">
+                    <h1 class="text-4xl font-bold">Pembelajaran populer</h1>
+                    <ul class="flex text-2xl font-semibold items-center">
+                        <li class="mr-8 shadow-xl shadow-slate-300 p-5 hover:cursor-pointer">Javascript</li>
+                        <li class="text-slate-400 mr-8 hover:cursor-pointer">Python</li>
+                        <li class="text-slate-400 mr-8 hover:cursor-pointer">Web Development</li>
+                        <li class="text-slate-400 mr-8 hover:cursor-pointer">Art & Design</li>
+                        <li class="text-slate-400 hover:cursor-pointer">Business</li>
+                    </ul>
+                </div>
+                <div class="mt-32 flex flex-wrap">
+                    <div class="w-[22%] h-[29rem] border-2 border-slate-300 mb-8 mx-5">
+                        <img class="w-full" src="assets/course-1.png">
+                        <div class="w-full p-5 flex flex-col whitespace-normal">
+                            <p class="font-bold text-secondary">Alen Mask</p>
+                            <p class="font-bold text-xl mt-2">Why Learn Intermidiate SQL for Marketers?</p>
+                            <div class="flex py-5">
+                                <img src="assets/icon-hamburger.svg">
+                                <p class="ml-2 mr-6">Beginner</p>
+                                <img src="assets/icon-copy.svg">
+                                <p class="ml-2">3 Lessons</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[22%] h-[29rem] border-2 border-slate-300 mb-8 mx-5">
+                        <img class="w-full" src="assets/course-2.png">
+                        <div class="w-full p-5 flex flex-col whitespace-normal">
+                            <p class="font-bold text-secondary">Alen Mask</p>
+                            <p class="font-bold text-xl mt-2">Why Learn Intermidiate SQL for Marketers?</p>
+                            <div class="flex py-5">
+                                <img src="assets/icon-hamburger.svg">
+                                <p class="ml-2 mr-6">Beginner</p>
+                                <img src="assets/icon-copy.svg">
+                                <p class="ml-2">3 Lessons</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[22%] h-[29rem] border-2 border-slate-300 mb-8 mx-5">
+                        <img class="w-full" src="assets/course-3.png">
+                        <div class="w-full p-5 flex flex-col whitespace-normal">
+                            <p class="font-bold text-secondary">Alen Mask</p>
+                            <p class="font-bold text-xl mt-2">Why Learn Intermidiate SQL for Marketers?</p>
+                            <div class="flex py-5">
+                                <img src="assets/icon-hamburger.svg">
+                                <p class="ml-2 mr-6">Beginner</p>
+                                <img src="assets/icon-copy.svg">
+                                <p class="ml-2">3 Lessons</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[22%] h-[29rem] border-2 border-slate-300 mb-8 mx-5">
+                        <img class="w-full" src="assets/course-4.png">
+                        <div class="w-full p-5 flex flex-col whitespace-normal">
+                            <p class="font-bold text-secondary">Alen Mask</p>
+                            <p class="font-bold text-xl mt-2">Why Learn Intermidiate SQL for Marketers?</p>
+                            <div class="flex py-5">
+                                <img src="assets/icon-hamburger.svg">
+                                <p class="ml-2 mr-6">Beginner</p>
+                                <img src="assets/icon-copy.svg">
+                                <p class="ml-2">3 Lessons</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[22%] h-[29rem] border-2 border-slate-300 mb-8 mx-5">
+                        <img class="w-full" src="assets/course-5.png">
+                        <div class="w-full p-5 flex flex-col whitespace-normal">
+                            <p class="font-bold text-secondary">Alen Mask</p>
+                            <p class="font-bold text-xl mt-2">Why Learn Intermidiate SQL for Marketers?</p>
+                            <div class="flex py-5">
+                                <img src="assets/icon-hamburger.svg">
+                                <p class="ml-2 mr-6">Beginner</p>
+                                <img src="assets/icon-copy.svg">
+                                <p class="ml-2">3 Lessons</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[22%] h-[29rem] border-2 border-slate-300 mb-8 mx-5">
+                        <img class="w-full" src="assets/course-6.png">
+                        <div class="w-full p-5 flex flex-col whitespace-normal">
+                            <p class="font-bold text-secondary">Alen Mask</p>
+                            <p class="font-bold text-xl mt-2">Why Learn Intermidiate SQL for Marketers?</p>
+                            <div class="flex py-5">
+                                <img src="assets/icon-hamburger.svg">
+                                <p class="ml-2 mr-6">Beginner</p>
+                                <img src="assets/icon-copy.svg">
+                                <p class="ml-2">3 Lessons</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[22%] h-[29rem] border-2 border-slate-300 mb-8 mx-5">
+                        <img class="w-full" src="assets/course-7.png">
+                        <div class="w-full p-5 flex flex-col whitespace-normal">
+                            <p class="font-bold text-secondary">Alen Mask</p>
+                            <p class="font-bold text-xl mt-2">Why Learn Intermidiate SQL for Marketers?</p>
+                            <div class="flex py-5">
+                                <img src="assets/icon-hamburger.svg">
+                                <p class="ml-2 mr-6">Beginner</p>
+                                <img src="assets/icon-copy.svg">
+                                <p class="ml-2">3 Lessons</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[22%] h-[29rem] border-2 border-slate-300 mb-8 mx-5">
+                        <img class="w-full" src="assets/course-8.png">
+                        <div class="w-full p-5 flex flex-col whitespace-normal">
+                            <p class="font-bold text-secondary">Alen Mask</p>
+                            <p class="font-bold text-xl mt-2">Why Learn Intermidiate SQL for Marketers?</p>
+                            <div class="flex py-5">
+                                <img src="assets/icon-hamburger.svg">
+                                <p class="ml-2 mr-6">Beginner</p>
+                                <img src="assets/icon-copy.svg">
+                                <p class="ml-2">3 Lessons</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="w-full h-[28rem] bg-fourth flex justify-evenly items-center whitespace-normal">
+                <img class="w-72 h-72" src="assets/membership-image.png">
+                <h1 class="w-[40vw] text-6xl font-semibold leading-snug">Dapatkan membership Pro GRATIS untuk kelas
+                    kamu.</h1>
+                <div
+                    class="w-60 h-14 py-3 pl-7 text-md bg-secondary text-white font-bold flex items-center rounded-md hover:cursor-pointer">
+                    Lihat semua kelas.</div>
+            </div>
+            <div class="w-full h-[85vh] flex flex-col justify-center items-center py-32 px-72">
+                <h1 class="text-4xl font-bold">Kategori populer</h1>
+                <div class="w-full h-auto flex flex-wrap">
+                    <div
+                        class="w-[22%] h-32 rounded-xl shadow-lg shadow-slate-500 mt-16 flex items-center px-10 mb-4 mr-10">
+                        <img class="w-20 h-20" src="assets/icon-chemical.svg">
+                        <div class="ml-5">
+                            <p class="text-2xl font-bold">Kimia</p>
+                            <p class="text-lg text-slate-500">2 kelas</p>
+                        </div>
+                    </div>
+                    <div
+                        class="w-[22%] h-32 rounded-xl shadow-lg shadow-slate-500 mt-16 flex items-center px-10 mb-4 mr-10">
+                        <img class="w-20 h-20" src="assets/icon-calendar.svg">
+                        <div class="ml-5">
+                            <p class="text-2xl font-bold">Managemen</p>
+                            <p class="text-lg text-slate-500">2 kelas</p>
+                        </div>
+                    </div>
+                    <div
+                        class="w-[22%] h-32 rounded-xl shadow-lg shadow-slate-500 mt-16 flex items-center px-10 mb-4 mr-10">
+                        <img class="w-20 h-20" src="assets/icon-pencil-ruler.svg">
+                        <div class="ml-5">
+                            <p class="text-2xl font-bold">Seni Budaya</p>
+                            <p class="text-lg text-slate-500">2 kelas</p>
+                        </div>
+                    </div>
+                    <div
+                        class="w-[22%] h-32 rounded-xl shadow-lg shadow-slate-500 mt-16 flex items-center px-10 mb-4 mr-10">
+                        <img class="w-20 h-20" src="assets/icon-briefcase.svg">
+                        <div class="ml-5">
+                            <p class="text-2xl font-bold">Bisnis</p>
+                            <p class="text-lg text-slate-500">2 kelas</p>
+                        </div>
+                    </div>
+                    <div
+                        class="w-[22%] h-32 rounded-xl shadow-lg shadow-slate-500 mt-16 flex items-center px-10 mb-4 mr-10">
+                        <img class="w-20 h-20" src="assets/icon-science.svg">
+                        <div class="ml-5">
+                            <p class="text-2xl font-bold">Astrologi</p>
+                            <p class="text-lg text-slate-500">2 kelas</p>
+                        </div>
+                    </div>
+                    <div
+                        class="w-[22%] h-32 rounded-xl shadow-lg shadow-slate-500 mt-16 flex items-center px-10 mb-4 mr-10">
+                        <img class="w-20 h-20" src="assets/icon-rocket.png">
+                        <div class="ml-5">
+                            <p class="text-2xl font-bold">SEO</p>
+                            <p class="text-lg text-slate-500">2 kelas</p>
+                        </div>
+                    </div>
+                    <div
+                        class="w-[22%] h-32 rounded-xl shadow-lg shadow-slate-500 mt-16 flex items-center px-10 mb-4 mr-10">
+                        <img class="w-20 h-20" src="assets/icon-space.svg">
+                        <div class="ml-5">
+                            <p class="text-2xl font-bold">Kosmologi</p>
+                            <p class="text-lg text-slate-500">2 kelas</p>
+                        </div>
+                    </div>
+                    <div
+                        class="w-[22%] h-32 rounded-xl shadow-lg shadow-slate-500 mt-16 flex items-center px-10 mb-4 mr-10">
+                        <img class="w-20 h-20" src="assets/icon-microscope.svg">
+                        <div class="ml-5">
+                            <p class="text-2xl font-bold">Biologi</p>
+                            <p class="text-lg text-slate-500">2 kelas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-16 text-xl text-secondary font-bold flex items-center hover:cursor-pointer">
+                    <p class="mr-3">Expore All Course</p> <img class="w-3" src="assets/icon-double-next.svg">
+                </div>
+            </div>
+            <div class="w-full h-[80vh] flex justify-center">
+                <div class="w-[72%] h-[70vh] bg-primary flex items-center justify-evenly">
+                    <img src="assets/business-image.png">
+                    <div class="w-1/2 flex flex-col">
+                        <h1 class="text-5xl font-semibold mb-10">Tingkatkan skill tim Anda.</h1>
+                        <p class="text-lg text-slate-500 mb-10">Berikan tim Anda pengetahuan, pengalaman, dan keyakinan
+                            yang mereka butuhkan untuk mengatasi
+                            setiap masalah. Kami ingin menciptakan dunia dimana siapa pun dapat membangun sesuatu yang
+                            bermakna.</p>
+                        <div
+                            class="w-60 h-14 py-3 pl-7 text-md bg-secondary text-white font-semibold flex items-center rounded-md hover:cursor-pointer">
+                            Try For Business</div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full h-[70vh] flex flex-col items-center py-32 px-72">
+                <h1 class="text-4xl font-bold mb-14">Event sedang berlangsung di dekatmu</h1>
+                <div class="w-auto h-[60vh] bg-white flex items-center justify-center">
+                    <div class="w-1/3 whitespace-normal">
+                        <img src="assets/event-1.png">
+                        <div class="flex items-center">
+                            <div class="w-16 pr-5 mt-5 text-center">
+                                <p class="font-bold text-3xl text-secondary">21</p>
+                                <p class="font-bold text-lg text-secondary">March</p>
+                            </div>
+                            <div class="flex px-5 border-l-2 border-slate-300">
+                                <img class="mr-3" src="assets/icon-location.svg">
+                                <p class="text-slate-500">North Caroline United States</p>
+                            </div>
+                        </div>
+                        <p class="text-3xl font-bold mt-4 whitespace-normal">Linear Regression in Python: Introduction
+                            to Simple Linear</p>
+                    </div>
+                    <div class="w-1/3 whitespace-normal">
+                        <img src="assets/event-2.png">
+                        <div class="flex items-center">
+                            <div class="w-16 pr-5 mt-5 text-center">
+                                <p class="font-bold text-3xl text-secondary">21</p>
+                                <p class="font-bold text-lg text-secondary">March</p>
+                            </div>
+                            <div class="flex px-5 border-l-2 border-slate-300">
+                                <img class="mr-3" src="assets/icon-location.svg">
+                                <p class="text-slate-500">North Caroline United States</p>
+                            </div>
+                        </div>
+                        <p class="text-3xl font-bold mt-4 whitespace-normal">Linear Regression in Python: Introduction
+                            to Simple Linear</p>
+                    </div>
+                    <div class="w-1/3 whitespace-normal">
+                        <img src="assets/event-3.png">
+                        <div class="flex items-center">
+                            <div class="w-16 pr-5 mt-5 text-center">
+                                <p class="font-bold text-3xl text-secondary">21</p>
+                                <p class="font-bold text-lg text-secondary">March</p>
+                            </div>
+                            <div class="flex px-5 border-l-2 border-slate-300">
+                                <img class="mr-3" src="assets/icon-location.svg">
+                                <p class="text-slate-500">North Caroline United States</p>
+                            </div>
+                        </div>
+                        <p class="text-3xl font-bold mt-4 whitespace-normal">Linear Regression in Python: Introduction
+                            to Simple Linear</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="bg-dark pt-24 pb-12 mt-40">
+            <div class="container">
+                <div class="flex flex-wrap">
+                    <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/4">
+                        <img src="assets/logo-ligasmk-white.png" alt="logo-ligasmk">
+                        <p class="mt-12">Mengubah kehidupan, bisnis, dan bangsa melalui transformasi talenta di bidang
+                            teknologi digital
+                        </p>
+                        <div class="flex mt-8">
+                            <img class="mr-5" src="assets/icon-facebook-white.svg">
+                            <img class="mr-5" src="assets/icon-twitter-white.svg">
+                            <img class="mr-5" src="assets/icon-linkedin-white.svg">
+                            <img class="mr-5" src="assets/icon-youtube-white.svg">
+                        </div>
+                    </div>
+                    <div class="w-full px-20 mb-12 md:w-1/4">
+                        <h3 class="font-semibold text-xl text-white mb-5">Resource</h3>
+                        <ul class="text-slate-300 mt-12">
+                            <li>
+                                <a href="#" class="inline-block text-base hover:text-primary mb-6">Programming</a>
+                            </li>
+                            <li>
+                                <a href="#" class="inline-block text-base hover:text-primary mb-6">Game</a>
+                            </li>
+                            <li>
+                                <a href="#" class="inline-block text-base hover:text-primary mb-6">Gaya Hidup</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="w-full px-4 mb-12 md:w-1/4">
+                        <h3 class="font-semibold text-xl text-white mb-5">Support</h3>
+                        <ul class="text-slate-300 mt-12">
+                            <li>
+                                <p class="inline-block text-base hover:text-primary mb-3">Web Development</p>
+                            </li>
+                            <li>
+                                <p class="inline-block text-base hover:text-primary mb-3">Data Science</p>
+                            </li>
+                            <li>
+                                <p class="inline-block text-base hover:text-primary mb-3">Machine Learning</p>
+                            </li>
+                            <li>
+                                <p class="inline-block text-base hover:text-primary mb-3">Developer Tools</p>
+                            </li>
+                            <li>
+                                <p class="inline-block text-base hover:text-primary mb-3">Web Design</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="w-full px-4 mb-12 md:w-1/4">
+                        <h3 class="font-semibold text-xl text-white mb-5">Download Now</h3>
+                        <div class="mt-12">
+                            <div class="w-full h-16 bg-white flex justify-center items-center rounded-md mb-4">
+                                <img src="assets/logo-appstore.png">
+                            </div>
+                            <div class="w-full h-16 bg-white flex justify-center items-center rounded-md">
+                                <img src="assets/logo-googleplay.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-ful pt-10 border-t border-slate-700">
+                    <div class="flex items-center text-white justify-between">
+                        <div class="flex">
+                            <p class="mr-10">Site Map</p>
+                            <p class="mr-10">Privacy Policy</p>
+                            <p class="mr-10">Terms & Condition</p>
+                            <p class="mr-10">Contact Us</p>
+                            <p class="mr-10">Forums</p>
+                        </div>
+                        <div class="flex">
+                            <p>Liga SMK 2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
